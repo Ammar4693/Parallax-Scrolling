@@ -1,0 +1,66 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    padding: 20px;
+}
+div{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 1080px;
+    background-size: cover;
+    filter: grayscale(100%);
+}
+.pg1{
+    background-image:url("./pg1.jpeg");
+}
+.pg1 h1{
+    text-align: center;
+    /* border:1px solid black; */
+    padding-top: 400px;
+    margin: auto;
+    font-size: 120px;
+    width: 60%;
+}
+.pg2{
+    background-image: url("./22_FRD_MST_55069_GT500_3Q_Front_Passenger_BLUE_DC_1_32.avif");
+}
+.pg3{
+    background-image: url("./2024-nissan-gt-r-gets-poisonous-digital-makeover-is-it-your-cup-of-tea-208324-7.jpg.webp");
+}
+.pg4{
+    background-image: url("./2020-lamborghini-aventador-svj-roadster-press-08.webp");
+}
+.pg5{
+    background-image: url("./Toyota-Supra-MK4-Lamborghini-Centenario-Widebody-Kit-Tuning-2022-7.webp");
+}
+.pg6{
+    background-image: url("./Ambassador_1-2.jpg");
+}
+div:hover{
+    filter: grayscale(0%);
+}
+.one{
+    font-size: 40px;
+}
+.two{
+    padding-top: 820px;
+    font-size: 30px;
+    margin: auto;
+    text-align: justify;
+    width: 60%;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+}
